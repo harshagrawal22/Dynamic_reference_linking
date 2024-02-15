@@ -1,26 +1,27 @@
 # Dynamic_reference_linking
 Group 5.
-Overview
+
+Overview:
 The Dynamic Reference Linking System is a web application designed to enhance the research and writing process by providing users with dynamically generated citations and references based on the content they are writing. This system automates the process of finding and linking relevant articles to support written content in real-time.
 
-Architecture
+Architecture:
 The system is built on a client-server architecture, leveraging multi-threading, server-side threading, client-server communication, API calls, and web scraping.
 The architecture of the Dynamic Reference Linking System consists of the following components:
 
 User Input
-↓
+->
 Frontend Interface
-↓
+->
 Backend Interface
-↓
+->
 Web Scraping & Article
-↓
+->
 Citation
-↓
+->
 Response to Frontend
-↓
+->
 User Interaction
-↓
+->
 Continuous Input Monitoring
 
 1. Frontend Interface:
@@ -47,7 +48,7 @@ Web scraping libraries (e.g., BeautifulSoup, Puppeteer) for extracting relevant 
 API calls to external databases or services for additional information retrieval
 (#May vary depending on project requirement)
 
-Workflow
+Workflow:
 Users interact with the frontend interface, entering or editing text.
 The frontend sends the updated text to the backend server via WebSocket or SSE.
 The backend server receives the text, performs web scraping to find relevant articles, and suggests citations in real-time.
