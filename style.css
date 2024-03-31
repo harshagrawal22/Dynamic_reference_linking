@@ -140,3 +140,7 @@ body.dark-mode #slider {
 .toggle input[type="checkbox"]:checked+.slider {
     transform: translateX(30px);
 }
+
+body.dark-mode .toggle .slider {
+    transform: translateX(30px);
+}
